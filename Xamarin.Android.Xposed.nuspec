@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+      <id>Xamarin.Android.Xposed</id>
+      <version>$version$</version>
+      <authors>Redth</authors>
+      <owners>Redth</owners>
+      <title>Xposed Bindings for Xamarin.Android</title>
+      <description>Leverage the populare Xposed framework from your Xamarin.Android apps!</description>
+      <summary>Leverage the populare Xposed framework from your Xamarin.Android apps!</summary>
+      <licenseUrl>https://raw.githubusercontent.com/Redth/Xamarin.Android.Xposed/master/LICENSE</licenseUrl>
+      <projectUrl>https://github.com/Redth/Xamarin.Android.Xposed</projectUrl>
+      <copyright>Copyright (c) Redth</copyright>
+      <releaseNotes>Initial Release</releaseNotes>
+      <tags>Xposed Xamarin Android</tags>
+      <dependencies>
+      </dependencies>
+   </metadata>
+   <files>
+      <file src="./Xamarin.Android.Xposed/bin/Release/Xamarin.Android.Xposed.dll" target="lib/MonoAndroid403" />
+   </files>
+</package>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='de.robv.android.xposed']" name="managedName">Xposed</attr>
+	<attr path="/api/package[@name='de.robv.android.xposed.callbacks']" name="managedName">Xposed.Callbacks</attr>
+	<attr path="/api/package[@name='de.robv.android.xposed.services']" name="managedName">Xposed.Services</attr>
+
+
+	<attr path="/api/package[@name='de.robv.android.xposed.callbacks']/interface[@name='IXUnhook']/method[@name='unhook']" name="managedName">UnHook</attr>
+	
+	<attr path="/api/package[@name='de.robv.android.xposed.callbacks']/class[@name='XC_LayoutInflated.Unhook']/method[@name='unhook' and count(parameter)=0]" name="managedName">UnHook</attr>
+	<attr path="/api/package[@name='de.robv.android.xposed.callbacks']/class[@name='XC_LayoutInflated.Unhook']/method[@name='getCallback' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='de.robv.android.xposed']/class[@name='XC_MethodHook.Unhook']/method[@name='unhook' and count(parameter)=0]" name="managedName">UnHook</attr>
+	<attr path="/api/package[@name='de.robv.android.xposed']/class[@name='XC_MethodHook.Unhook']/method[@name='getCallback' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+</metadata>
